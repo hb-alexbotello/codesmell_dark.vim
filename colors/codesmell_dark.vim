@@ -127,7 +127,7 @@ call s:HL('WildMenu', s:colors.background, s:colors.cyan)
 " ----------------------------------------------------
 call s:HL('Comment', s:colors.grey, s:colors.none)
 call s:HL('Identifier', s:colors.blue, s:colors.none)
-call s:HL('Function', s:colors.bright_green, s:colors.none)
+call s:HL('Function', s:colors.magenta, s:colors.none)
 " ----------------------------------------------------
 call s:HL('rustAttribute', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
