@@ -127,7 +127,7 @@ call s:HL('WildMenu', s:colors.background, s:colors.cyan)
 " ----------------------------------------------------
 call s:HL('Comment', s:colors.grey, s:colors.none)
 call s:HL('Identifier', s:colors.blue, s:colors.none)
-call s:HL('Function', s:colors.magenta, s:colors.none)
+call s:HL('Function', s:colors.blue, s:colors.none)
 " ----------------------------------------------------
 call s:HL('rustAttribute', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
@@ -208,7 +208,7 @@ call s:HL('tomlTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.n
 " --- a little Rust specific TS syntax highlighting
 call s:HL('rustTSParameter', s:colors.green, s:colors.none)
 call s:HL('rustTSKeyword', s:colors.dodger_blue, s:colors.none)
-call s:HL('rustTSKeywordFunction', s:colors.magenta, s:colors.none)
+call s:HL('rustTSKeywordFunction', s:colors.blue, s:colors.none)
 call s:HL('rustTSType', s:colors.yellow, s:colors.none, s:colors.none)
 call s:HL('rustTSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('rustTSBoolean', s:colors.redish_white, s:colors.none, s:colors.bold)
@@ -289,7 +289,7 @@ call s:HL('CmpItemAbbrMatch', s:colors.bright_green, s:colors.none)
 call s:HL('CmpItemKindKeyword', s:colors.magenta, s:colors.none)
 call s:HL('CmpItemKindMethod', s:colors.magenta, s:colors.none)
 call s:HL('CmpItemKindVariable', s:colors.light_bright_green, s:colors.none)
-call s:HL('CmpItemKindFunction', s:colors.magenta, s:colors.none)
+call s:HL('CmpItemKindFunction', s:colors.blue, s:colors.none)
 call s:HL('CmpItemKindText', s:colors.redish_white, s:colors.none)
 
 " winbar
