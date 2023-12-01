@@ -289,7 +289,7 @@ call s:HL('CmpItemAbbrMatch', s:colors.bright_green, s:colors.none)
 call s:HL('CmpItemKindKeyword', s:colors.magenta, s:colors.none)
 call s:HL('CmpItemKindMethod', s:colors.magenta, s:colors.none)
 call s:HL('CmpItemKindVariable', s:colors.light_bright_green, s:colors.none)
-call s:HL('CmpItemKindFunction', s:colors.blue, s:colors.none)
+call s:HL('CmpItemKindFunction', s:colors.magenta, s:colors.none)
 call s:HL('CmpItemKindText', s:colors.redish_white, s:colors.none)
 
 " winbar
