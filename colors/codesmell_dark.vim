@@ -182,7 +182,7 @@ call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 " Treesitter & language specific highlighting
 " ----------------------------------------------------
 call s:HL('TSComment', s:colors.dark_grey, s:colors.none)
-call s:HL('TSVariable', s:colors.white, s:colors.none)
+call s:HL('TSVariable', s:colors.grey_green, s:colors.none)
 call s:HL('TSParameter', s:colors.yellow, s:colors.none)
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.magenta, s:colors.none)
