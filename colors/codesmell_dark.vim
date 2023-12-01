@@ -182,7 +182,7 @@ call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 " Treesitter & language specific highlighting
 " ----------------------------------------------------
 call s:HL('TSComment', s:colors.dark_grey, s:colors.none)
-call s:HL('TSVariable', s:colors.redish_white, s:colors.none)
+call s:HL('TSVariable', s:colors.white, s:colors.none)
 call s:HL('TSParameter', s:colors.yellow, s:colors.none)
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.magenta, s:colors.none)
@@ -288,7 +288,7 @@ call s:HL('CmpItemAbbrMatchFuzzy', s:colors.bright_green, s:colors.none)
 call s:HL('CmpItemAbbrMatch', s:colors.bright_green, s:colors.none)
 call s:HL('CmpItemKindKeyword', s:colors.dodger_blue, s:colors.none)
 call s:HL('CmpItemKindMethod', s:colors.magenta, s:colors.none)
-call s:HL('CmpItemKindVariable', s:colors.light_bright_green, s:colors.none)
+call s:HL('CmpItemKindVariable', s:colors.white, s:colors.none)
 call s:HL('CmpItemKindFunction', s:colors.blue, s:colors.none)
 call s:HL('CmpItemKindText', s:colors.redish_white, s:colors.none)
 
