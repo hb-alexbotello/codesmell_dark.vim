@@ -206,7 +206,7 @@ call s:HL('javascriptTSKeywordReturn', s:colors.blue_grey, s:colors.none)
 call s:HL('tomlTSProperty', s:colors.neovim_blue, s:colors.none, s:colors.bold)
 call s:HL('tomlTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
 " --- a little Rust specific TS syntax highlighting
-call s:HL('rustTSParameter', s:colors.green, s:colors.none)
+call s:HL('rustTSParameter', s:colors.white, s:colors.none)
 call s:HL('rustTSKeyword', s:colors.dodger_blue, s:colors.none)
 call s:HL('rustTSKeywordFunction', s:colors.blue, s:colors.none)
 call s:HL('rustTSType', s:colors.yellow, s:colors.none, s:colors.none)
